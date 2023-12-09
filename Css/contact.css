@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: auto;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    padding: 1px 20px;
+    background-color: #0C356A;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    margin: 0;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 4px;
+    color: aliceblue;
+}
+
+.navigation .buttonstart{
+    border: 2px solid rgb(233, 228, 228);
+    width: 90px;
+    height: 30px;
+    font-size: 1.1em;
+    /* cursor: pointer; */
+    background: transparent;
+    border-radius: 9px;
+    outline: none;
+    color: azure;
+    font-weight: 500;
+    margin-left: 10px;
+    padding: 1px;
+    /* transition: .5s; */
+    text-align: center;
+
+}
+
+.navigation .buttonstart:hover{
+    background-color: rgb(9, 95, 170);
+
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: white;
+    transform-origin: right;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.contactbg{
+    width: 1350px;
+    background-color: whitesmoke;
+    position: static;
+    padding: 3px;
+    margin-top: 60px;
+}
+
+.middle{
+    text-align: center;
+}
+
+p{
+    color: blueviolet;
+}
+
+.column1{
+    text-align: justify;
+    color: black;
+    float: left;
+    width: 500px;
+    height: 250px;
+    border-style: dotted;
+    border: 1px;
+    border-color: aqua;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.column1 .list{
+    display: grid;
+    margin-left: 50px;
+    align-items: normal;
+    text-decoration: none;
+    list-style-type:circle;
+    
+}
+
+.column2{
+    display: flex;
+    text-align: center;
+    color: black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    flex-direction: row;
+}
+
+.column21 img
+{
+    padding-bottom: 5px;
+}
+
+.column21 h5
+{
+    margin-left: 35px;
+    padding: 5px;
+}
+
+ .column3 h5{
+    margin-left: 80px;
+    padding: 5px;
+} 
+
+.column4 h5{
+    margin-left: 60px;
+    padding: 5px;
+} 
+
+.endpage{
+    width: 630px;
+    height: 330px;
+    background-color: yellow;
+    border-style: none;
+    border: 2px solid white;
+    margin-left: 650px;
+    position: static;
+
+}
+
+.endpage1{
+    width: 530px;
+    height: 250px;
+    background-color:white;
+    border-style: double;
+    border: 5px solid white;
+    margin-left: 50px;
+    margin-top: 35px;
+
+}
+
+
+.endpage3{
+    text-align: left;
+    margin: 0;
+    display: grid;
+    padding-left: 100px;
+    padding: 50px;
+    margin-bottom: 80px;
+    
+}
+
+.foot
+{
+    width: 1370px;
+    height: 250px;
+    background-color: black;
+    border: 10px solid black;
+    /* box-sizing: border-box; */
+    position: absolute;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.foot1 img
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.foot1 p
+{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-size: small;
+}
+
+.foot1 i
+{
+    color: white;
+    margin-left: 20px;
+}
+
+.foot2 
+{
+    
+    width: 750px;
+    height: 200px;
+    margin: 0;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.foot21 
+{
+    color: white;
+    position: absolute;
+    font-size: small;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.foot21 h4:hover
+{
+    color:  #0C356A;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.foot22 
+{
+    color: white;
+    position: absolute;
+    margin-left: 300px;
+    font-size: small;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.foot22 h4:hover
+{
+    color:  #0C356A;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.foot23
+{
+    margin-left: 600px;
+    color: white;
+    list-style-type: none;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.foot23 h4:hover
+{
+    color:  #0C356A;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
